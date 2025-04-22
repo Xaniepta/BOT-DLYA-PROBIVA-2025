@@ -1,4 +1,5 @@
 <a href='https://postimg.cc/jChfGjxW' target='_blank'><img src='https://i.postimg.cc/jChfGjxW/Data-Scope.png' border='0' alt='Data-Scope'/></a>
+
 💥 Глаз Бога закрылся — эпоха закончилась.
 
 Но на его месте теперь работает DataScope — свежий, быстрый.
