@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DataScope — OSINT нового уровня</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(ellipse at center, #0a0a0a 0%, #000000 100%);
+      background-attachment: fixed;
+      color: #e0e0e0;
+    }
+    .neon {
+      color: #0ff;
+      text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+    }
+    .btn-neon {
+      background: linear-gradient(90deg, #00ffe0, #00bfff);
+      color: #000;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00fff7, 0 0 30px #00fff7;
+      transition: all 0.3s ease-in-out;
+    }
+    .btn-neon:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #00fff7, 0 0 40px #00fff7;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.05);
+    }
+    .section-title {
+      border-left: 4px solid #0ff;
+      padding-left: 12px;
+      margin-bottom: 12px;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body class="p-6">
+  <!-- Header -->
+  <header class="flex justify-between items-center border-b border-gray-800 pb-4 mb-10">
+    <h1 class="text-4xl neon tracking-wide">DataScope</h1>
+    <a href="https://t.me/TheDataScopeBot" target="_blank" class="btn-neon px-5 py-2 rounded">Запустить бота</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="mb-16 text-center">
+    <h2 class="text-3xl md:text-5xl font-bold neon mb-4">💥 Глаз Бога закрылся. Да здравствует DataScope.</h2>
+    <p class="text-xl text-gray-300">Это не просто OSINT-инструмент. Это твоя цифровая разведка, всегда на шаг впереди.</p>
+  </section>
+
+  <!-- Features -->
+  <section class="grid md:grid-cols-2 gap-8 mb-16">
+    <div class="glass p-6 rounded-xl">
+      <h3 class="section-title neon">🔍 Возможности</h3>
+      <ul class="list-disc list-inside text-gray-200 space-y-2 text-base">
+        <li>📱 Пробив телефонов, email, номеров машин</li>
+        <li>🌐 Анализ IP, доменов, Telegram и соцсетей</li>
+        <li>📎 Проверка паспортов и водительских прав</li>
+        <li>🧠 Постоянное самообучение и обновление баз</li>
+      </ul>
+    </div>
+    <div class="glass p-6 rounded-xl">
+      <h3 class="section-title neon">📌 Примеры</h3>
+      <ul class="text-gray-200 space-y-2 text-base">
+        <li>+79637829051 → подробная инфа</li>
+        <li>ceo@vkontakte.ru → история засветов</li>
+        <li>В395ОК199 → сведения об авто</li>
+        <li>1.1.1.1 / sherlock.com → следы в сети</li>
+        <li>/passport 1234567890 → результаты по документам</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Ethics -->
+  <section class="glass p-6 rounded-xl mb-16">
+    <h3 class="section-title neon">🔒 Этичность</h3>
+    <p class="text-base text-gray-400">DataScope работает исключительно с открытыми источниками. Мы не поддерживаем и не поощряем незаконное использование информации. Безопасность и этика — наш приоритет.</p>
+  </section>
+
+  <!-- CTA -->
+  <section class="text-center mb-16">
+    <a href="https://t.me/TheDataScopeBot" target="_blank" class="btn-neon px-8 py-4 rounded-xl text-xl">🚀 Запустить прямо сейчас</a>
+    <p class="mt-4 text-gray-500 text-base">Просто скинь номер, ник, IP или email — и наблюдай за магией.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-600 border-t border-gray-800 pt-6">
+    <p>© 2025 DataScope — разработано с дерзостью</p>
+  </footer>
+</body>
+</html>
